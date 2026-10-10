@@ -4,18 +4,18 @@ window.HIJINKS = {
   brand: 'Hijinks',
   github: 'https://github.com/Hijinkssss',
   nexus: 'https://www.nexusmods.com/profile/Hijinksss',
-  checkedOn: '2026-10-05',
+  checkedOn: '2026-10-10',
   projects: [
     {
       id: 'faa', code: 'FAA', name: 'Full Auto Assist', category: 'Accessibility',
-      version: '1.1.0', date: '2026-10-01', status: 'Released',
+      version: '1.2.0', date: '2026-10-07', status: 'Released',
       tagline: 'Less clicking. More diving.',
       description: 'Hold Fire to repeat normal Fire input on explicitly supported weapons. A little less strain for the long fight.',
       image: 'assets/images/faa-thumbnail.png', imageAlt: 'Full Auto Assist artwork by Hijinks, featuring a fire-mode selector',
       repo: 'https://github.com/Hijinkssss/helldivers2-modding/tree/main/HD2FullAutoAssist',
-      release: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.1.0',
-      download: 'https://github.com/Hijinkssss/helldivers2-modding/releases/download/v1.1.0/Full-Auto-Assist-1.1.0-Arsenal.zip',
-      filename: 'Full-Auto-Assist-1.1.0-Arsenal.zip',
+      release: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.2.0',
+      download: 'https://github.com/Hijinkssss/helldivers2-modding/releases/download/v1.2.0/Full-Auto-Assist-1.2.0-Arsenal.zip',
+      filename: 'Full-Auto-Assist-1.2.0-Arsenal.zip',
       nexus: 'https://www.nexusmods.com/helldivers2/mods/16720',
       upstreamDocs: 'https://github.com/Hijinkssss/helldivers2-modding/blob/main/HD2FullAutoAssist/README.md',
       features: ['31 explicitly supported weapons', 'Configurable Arsenal profiles', 'White / yellow ON-OFF HUD indicator'],
@@ -55,7 +55,7 @@ window.HIJINKS = {
   ],
   updates: [
     { project: 'expanded-tips', version: '1.0.0', date: '2026-10-04', title: 'Better intel between drops.', notes: ['Initial release with 82 rewritten US English loading tips.', 'Keeps the familiar loading-screen UI and original tip-selection behavior.', 'Install through Arsenal; no additional runtime loader.'], url: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0' },
-    { project: 'faa', version: '1.1.0', date: '2026-10-01', title: 'More control. Less overhead.', notes: ['31 supported weapons, including Commando and AMR SPECIAL.', 'Eruptor cadence choices: 27, 28 (default), or 32 RPM.', 'Three-cartridge status indicator and reduced HUD/runtime overhead.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.1.0' },
+    { project: 'faa', version: '1.1.0', date: '2026-10-01', title: 'More control. Less overhead.', notes: ['31 supported weapons, including Commando and AMR SPECIAL.', 'Eruptor cadence choices: 27, 28 (default), or 32 RPM.', 'Three-cartridge status indicator and reduced HUD/runtime overhead.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.2.0' },
     { project: 'faa', version: '1.0.1', date: '2026-09-29', title: 'Performance and reliability.', notes: ['Reduced repeated discovery work through validated caches.', 'Improved handling of slow weapons and weapon transitions.', 'Improved restoration and recovery after transient failures.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.0.1' },
     { project: 'faa', version: '1.0.0', date: '2026-09-29', title: 'The first drop.', notes: ['Initial public release with held-Fire assistance for 29 supported weapons.', 'Seven configurable Arsenal weapon profile groups.', 'Default ON, optional Mod Bindings Menu support, and exact-build gating.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.0.0' }
   ]
