@@ -74,6 +74,8 @@ window.HIJINKS = {
     { title: 'Boosters and You', subtitle: 'Guide to the Best Boosters', label: 'Squad loadouts', icon: 'bolt', description: 'Understand what each booster brings to the squad and make a more informed choice before the drop.', url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3166911968' }
   ],
   updates: [
+    { project: 'sraf', version: '1.0.0', date: '2026-10-10', title: 'SRAF launches.', notes: ['Main SDC Edition and optional Framework Only Edition.', 'Customizable audio notifications for supported stratagems.'], url: 'https://www.nexusmods.com/helldivers2/mods/17188' },
+
     { project: 'expanded-tips', version: '1.0.0', date: '2026-10-04', title: 'Better intel between drops.', notes: ['Initial release with 82 rewritten US English loading tips.', 'Keeps the familiar loading-screen UI and original tip-selection behavior.', 'Install through Arsenal; no additional runtime loader.'], url: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v2.0.0' },
     { project: 'faa', version: '1.1.0', date: '2026-10-01', title: 'More control. Less overhead.', notes: ['31 supported weapons, including Commando and AMR SPECIAL.', 'Eruptor cadence choices: 27, 28 (default), or 32 RPM.', 'Three-cartridge status indicator and reduced HUD/runtime overhead.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.2.0' },
     { project: 'faa', version: '1.0.1', date: '2026-09-29', title: 'Performance and reliability.', notes: ['Reduced repeated discovery work through validated caches.', 'Improved handling of slow weapons and weapon transitions.', 'Improved restoration and recovery after transient failures.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.0.1' },
