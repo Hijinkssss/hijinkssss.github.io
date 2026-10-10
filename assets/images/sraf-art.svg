@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">Stratagem Ready Audio Framework</title>
+  <desc id="desc">Original dark green artwork with gold orbital rings and an audio waveform.</desc>
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#28302a"/><stop offset="1" stop-color="#101514"/></radialGradient>
+    <linearGradient id="gold"><stop stop-color="#ffe900"/><stop offset="1" stop-color="#c6b800"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="800" height="440" fill="url(#bg)"/>
+  <path d="M0 354h800M0 86h800" stroke="#c7ceaf" stroke-opacity=".08"/>
+  <ellipse cx="400" cy="220" rx="250" ry="128" fill="none" stroke="#ffe900" stroke-opacity=".34" transform="rotate(-20 400 220)"/>
+  <ellipse cx="400" cy="220" rx="180" ry="242" fill="none" stroke="#7bd594" stroke-opacity=".22" transform="rotate(50 400 220)"/>
+  <circle cx="400" cy="220" r="107" fill="#121817" stroke="#59613a" stroke-width="2"/>
+  <text x="400" y="214" text-anchor="middle" fill="#f0f0e5" font-family="Arial,sans-serif" font-size="66" font-weight="900" letter-spacing="-5">SRAF</text>
+  <text x="400" y="248" text-anchor="middle" fill="#ffe900" font-family="Consolas,monospace" font-size="13" letter-spacing="3">AUDIO FRAMEWORK</text>
+  <path d="M185 320h35l17-27 22 50 24-81 25 113 23-92 24 50 23-31 23 20 23-62 25 100 25-82 22 55 19-28h35" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <text x="34" y="45" fill="#a5aba6" font-family="Consolas,monospace" font-size="12" letter-spacing="2">HIJINKS / FIELD AUDIO SYSTEM</text>
+  <text x="766" y="45" text-anchor="end" fill="#a5aba6" font-family="Consolas,monospace" font-size="12" letter-spacing="2">V1.0.0</text>
+</svg>

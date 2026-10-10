@@ -29,11 +29,11 @@ Do not put private projects, research reports, draft release notes, credentials,
 
 ## Included
 
-- Responsive home page, mod search, category filters, Steam guide cards, and release summaries.
-- Project details at `project.html?id=faa` and `project.html?id=expanded-tips`.
+- Responsive home page with an SRAF 1.0.0 feature, mod search, category filters, Steam guide cards, and release summaries.
+- Project details at `project.html?id=faa`, `project.html?id=expanded-tips`, and `project.html?id=sraf`.
 - Installation manual, requirements, FAQs, project media viewer, copyable filenames, changelog filters, and a 404 page.
-- Verified public GitHub releases, exact packaged ZIP links, project-specific Nexus listings, and the creator profile.
+- Public release links for FAA v1.2.0, Expanded Tips v2.0.0, and SRAF v1.0.0, including both SRAF editions on Nexus Mods.
 - Local project artwork and reference-derived background. No external font or media requests.
 - Keyboard focus styles, skip links, accessible menu, native media dialog, reduced-motion support, and basic no-JavaScript download links.
 
-Public links and release snapshots were checked on **October 5, 2026**. FAA's GitHub release is v1.1.0; older README/Nexus snapshots may show earlier versions. Compatibility is release-specific, not a promise that every future game build works.
+Public release links and site details were checked on **October 10, 2026**. Compatibility is release-specific, not a promise that every future game build works.

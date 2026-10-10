@@ -20,7 +20,7 @@ The uploaded reference establishes provenance, not a new license for third-party
 - `mark.svg`, guide SVG linework, and website HTML/CSS/JavaScript: Original work for this hub. They do not reproduce the official skull-and-wings emblem.
 - No licensed font files are included; typography uses installed system fonts.
 
-Public release content was verified from the repositories and exact GitHub release records on October 5, 2026. The release record takes precedence over older repository READMEs for version labels. Dates displayed on the site use America/New_York publication dates; a release near midnight UTC may appear on the prior calendar day.
+Public release content was checked against current public GitHub releases and site assets on October 10, 2026. GitHub release timestamps are shown using America/New_York publication dates.
 
 ## Public destinations
 
@@ -28,5 +28,7 @@ Public release content was verified from the repositories and exact GitHub relea
 - Nexus creator profile: https://www.nexusmods.com/profile/Hijinksss
 - FAA on Nexus: https://www.nexusmods.com/helldivers2/mods/16720
 - Expanded Tips on Nexus: https://www.nexusmods.com/helldivers2/mods/16970
+- SRAF on Nexus: https://www.nexusmods.com/helldivers2/mods/17188
+- SRAF SDC audio showcase: https://hijinkssss.github.io/SRAF-SDC-Audio-Showcase/
 - Helldiver's Bestiary Steam guide: https://steamcommunity.com/sharedfiles/filedetails/?id=3159493752
 - Boosters and You Steam guide: https://steamcommunity.com/sharedfiles/filedetails/?id=3166911968

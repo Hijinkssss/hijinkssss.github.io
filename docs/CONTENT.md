@@ -13,7 +13,7 @@ Duplicate an existing entry in `projects`. Assign a unique lowercase `id` such a
 | `tagline`, `description` | Short project copy |
 | `image`, `imageAlt` | Relative local image path and meaningful alternative text |
 | `repo`, `release`, `download`, `filename` | Public source, exact release, packaged asset URL, matching filename |
-| `nexus`, `upstreamDocs` | Public Nexus listing and complete documentation; null suppresses an optional link |
+| `nexus`, `upstreamDocs`, `showcase` | Public Nexus listing, complete documentation, and optional public media showcase; null suppresses an optional link |
 | `features`, `install`, `limitations` | Arrays of plain text |
 | `requirements`, `compatibility`, `usage` | Plain text scoped to this specific version |
 | `faq` | Array of `{ question, answer }` |
