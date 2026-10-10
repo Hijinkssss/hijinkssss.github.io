@@ -47,6 +47,26 @@ window.HIJINKS = {
       limitations: ['The mod replaces the existing fixed pool; it does not increase the number of tips.', 'UK English and other languages are untouched.', 'Balance updates may require changes to the advice or localization resource.'],
       faq: [{ question: 'Does this require Shared Loader?', answer: 'Yes, version 2.0.0 requires Bingus Shared Loader v19 / API 1.' }, { question: 'How do I restore the original tips?', answer: 'Disable or remove Expanded Tips in Arsenal, then redeploy. Another localization replacement may still change the original tips.' }],
       media: [{ src: 'assets/images/expanded-tips.png', alt: 'Official HD2 Expanded Tips project artwork', caption: 'Project artwork · HD2 Expanded Tips', type: 'Artwork' }]
+    },
+    {
+      id: 'sraf', code: 'SRAF', name: 'Stratagem Ready Audio Framework', category: 'Quality of life',
+      version: '1.0.0', date: '2026-10-10', status: 'Released',
+      tagline: 'Your stratagem is ready. Hear it.',
+      description: 'Custom WAV notifications for supported stratagem cooldowns. Choose the included Super Destroyer Chimes or create your own sound pack.',
+      image: 'assets/images/mark.svg', imageAlt: 'Hijinks logo, temporary SRAF project artwork',
+      repo: null, release: 'https://www.nexusmods.com/helldivers2/mods/17188',
+      download: 'https://www.nexusmods.com/helldivers2/mods/17188?tab=files',
+      filename: 'Choose your SRAF edition on Nexus Mods',
+      nexus: 'https://www.nexusmods.com/helldivers2/mods/17188',
+      upstreamDocs: 'https://www.nexusmods.com/helldivers2/mods/17188',
+      features: ['Main SDC Edition with distinctive directional chimes', 'Optional Framework Only Edition for custom sound packs', 'Individual, category and universal WAV routing'],
+      requirements: 'Arsenal and CB Shared Loader; see Nexus release instructions.',
+      compatibility: 'Uses supported native cooldown-ready transitions; see Nexus for current coverage and build support.',
+      install: ['Close the game and install the Shared Loader required by the release.', 'On Nexus choose either Main SDC Edition or Optional Framework Only Edition.', 'Import the selected package in Arsenal and follow its release instructions.'],
+      usage: 'SDC provides built-in directional notification sounds. Framework Only supports creator-supplied WAV packs.',
+      limitations: ['Does not alter cooldown duration or stratagem behavior.', 'Eagle stratagems are outside current scope.', 'The source repository is private; public downloads are on Nexus.'],
+      faq: [{ question: 'Can I make my own sounds?', answer: 'Yes. Use Framework Only and its sound pack manifest instructions.' }],
+      media: [{ src: 'assets/images/mark.svg', alt: 'Hijinks logo placeholder', caption: 'Temporary SRAF project artwork', type: 'Artwork' }]
     }
   ],
   guides: [
