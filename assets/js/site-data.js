@@ -29,23 +29,23 @@ window.HIJINKS = {
     },
     {
       id: 'expanded-tips', code: 'TIPS', name: 'HD2 Expanded Tips', category: 'Quality of life',
-      version: '1.0.0', date: '2026-10-04', status: 'Released',
+      version: '2.0.0', date: '2026-10-10', status: 'Released',
       tagline: 'Make the loading screen count.',
-      description: '82 practical US English loading tips covering combat, objectives, enemies, supplies, and teamwork. Familiar screen. Better intel.',
+      description: '250 tips: 82 original vanilla tips and 168 custom Useful, Lore and Funny tips, rotating a pool of 82 each launch.',
       image: 'assets/images/expanded-tips.png', imageAlt: 'HD2 Expanded Tips artwork by Hijinks',
       repo: 'https://github.com/Hijinkssss/hd2-expanded-tips',
-      release: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0',
-      download: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/download/v1.0.0/HD2-Expanded-Tips-v1.0.0.zip',
-      filename: 'HD2-Expanded-Tips-v1.0.0.zip',
+      release: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v2.0.0',
+      download: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/download/v2.0.0/HD2-Expanded-Tips-2.0.0-Arsenal.zip',
+      filename: 'HD2-Expanded-Tips-2.0.0-Arsenal.zip',
       nexus: 'https://www.nexusmods.com/helldivers2/mods/16970',
       upstreamDocs: 'https://github.com/Hijinkssss/hd2-expanded-tips#readme',
-      features: ['82 rewritten loading-screen tips', 'Vanilla display and tip selection', 'No runtime loader required'],
-      requirements: 'HD2 Arsenal. No Shared Loader or other runtime loader is needed.',
+      features: ['250 tips across Useful, Lore and Funny', 'Shuffled 82-tip selection each launch', 'Eight Arsenal category combinations'],
+      requirements: 'HD2 Arsenal and Bingus Shared Loader v19 / API 1.',
       compatibility: 'US English only, built against Steam build 25480438. Other mods replacing the same US English localization resource can conflict.',
       install: ['Download the release ZIP below.', 'Import the ZIP into HD2 Arsenal.', 'Enable HD2 Expanded Tips and deploy your configuration.'],
-      usage: 'Tips appear through the normal loading-screen system. There is nothing to toggle or configure in-game.',
+      usage: 'Choose categories in Arsenal; a saved shuffled deck selects 82 eligible tips each launch.',
       limitations: ['The mod replaces the existing fixed pool; it does not increase the number of tips.', 'UK English and other languages are untouched.', 'Balance updates may require changes to the advice or localization resource.'],
-      faq: [{ question: 'Does this require Shared Loader?', answer: 'No. Expanded Tips replaces localization data and has no runtime loader dependency.' }, { question: 'How do I restore the original tips?', answer: 'Disable or remove Expanded Tips in Arsenal, then redeploy. Another localization replacement may still change the original tips.' }],
+      faq: [{ question: 'Does this require Shared Loader?', answer: 'Yes, version 2.0.0 requires Bingus Shared Loader v19 / API 1.' }, { question: 'How do I restore the original tips?', answer: 'Disable or remove Expanded Tips in Arsenal, then redeploy. Another localization replacement may still change the original tips.' }],
       media: [{ src: 'assets/images/expanded-tips.png', alt: 'Official HD2 Expanded Tips project artwork', caption: 'Project artwork · HD2 Expanded Tips', type: 'Artwork' }]
     }
   ],
@@ -54,7 +54,7 @@ window.HIJINKS = {
     { title: 'Boosters and You', subtitle: 'Guide to the Best Boosters', label: 'Squad loadouts', icon: 'bolt', description: 'Understand what each booster brings to the squad and make a more informed choice before the drop.', url: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3166911968' }
   ],
   updates: [
-    { project: 'expanded-tips', version: '1.0.0', date: '2026-10-04', title: 'Better intel between drops.', notes: ['Initial release with 82 rewritten US English loading tips.', 'Keeps the familiar loading-screen UI and original tip-selection behavior.', 'Install through Arsenal; no additional runtime loader.'], url: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0' },
+    { project: 'expanded-tips', version: '1.0.0', date: '2026-10-04', title: 'Better intel between drops.', notes: ['Initial release with 82 rewritten US English loading tips.', 'Keeps the familiar loading-screen UI and original tip-selection behavior.', 'Install through Arsenal; no additional runtime loader.'], url: 'https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v2.0.0' },
     { project: 'faa', version: '1.1.0', date: '2026-10-01', title: 'More control. Less overhead.', notes: ['31 supported weapons, including Commando and AMR SPECIAL.', 'Eruptor cadence choices: 27, 28 (default), or 32 RPM.', 'Three-cartridge status indicator and reduced HUD/runtime overhead.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.2.0' },
     { project: 'faa', version: '1.0.1', date: '2026-09-29', title: 'Performance and reliability.', notes: ['Reduced repeated discovery work through validated caches.', 'Improved handling of slow weapons and weapon transitions.', 'Improved restoration and recovery after transient failures.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.0.1' },
     { project: 'faa', version: '1.0.0', date: '2026-09-29', title: 'The first drop.', notes: ['Initial public release with held-Fire assistance for 29 supported weapons.', 'Seven configurable Arsenal weapon profile groups.', 'Default ON, optional Mod Bindings Menu support, and exact-build gating.'], url: 'https://github.com/Hijinkssss/helldivers2-modding/releases/tag/v1.0.0' }
