@@ -28,9 +28,11 @@ jobs:
       - name: Prepare public files only
         run: |
           mkdir -p _site/docs
+          mkdir -p _site/SRAF-SDC-Audio-Showcase
           cp index.html project.html docs.html changelog.html credits.html 404.html .nojekyll _site/
           cp -R assets _site/assets
           cp docs/CREDITS.md _site/docs/CREDITS.md
+          cp SRAF-SDC-Audio-Showcase/index.html _site/SRAF-SDC-Audio-Showcase/index.html
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
